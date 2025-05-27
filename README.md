@@ -66,8 +66,4 @@ Copyright (c) 2023 [Zaki Raihan](https://github.com/zakiraihan4636)
 
 ---
 
-[![Star](https://img.shields.io/github/stars/zakiraihan4636/go-todos?style=social)](https://github.com/zakiraihan4636/go-todos)
-
-[![Fork](https://img.shields.io/github/forks/zakiraihan4636/go-todos?style=social)](https://github.com/zakiraihan4636/go-todos/fork)
-
-[![Watch](https://img.shields.io/github/watchers/zakiraihan4636/go-todos?style=social)](https://github.com/zakiraihan4636/go-todos/watchers)
+## 🙏 Thank You
