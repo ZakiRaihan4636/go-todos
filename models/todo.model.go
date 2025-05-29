@@ -1,12 +1,4 @@
-package main
-
-import (
-	"github.com/labstack/echo/v4"
-	"github.com/zakiraihan4636/go-todos/database"
-	"github.com/zakiraihan4636/go-todos/routes"
-
-	_ "github.com/go-sql-driver/mysql"
-)
+package models
 
 type CreateRequest struct {
 	Id          int    `json:"id"`
@@ -29,14 +21,4 @@ type UpdateRequest struct {
 }
 type DeleteRequest struct {
 	Id int `json:"id"`
-}
-
-func main() {
-	db := database.InitDb()
-	defer db.Close()
-	e := echo.New()
-
-	routes.TodoRoutes(e, db)
-	// server running on port 8080
-	e.Start(":8080")
 }
